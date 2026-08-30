@@ -1,3 +1,9 @@
+
+
+import { * as localAlias} from 'fs';
+let a=10;
+let b=20;
+
 function m1(a, b) {
     console.log('Hello world');
     console.log('Sum:', a + b);
@@ -14,3 +20,7 @@ m2(10, (a) => {
 
 var b;
 console.log(typeof b);
+
+
+
+

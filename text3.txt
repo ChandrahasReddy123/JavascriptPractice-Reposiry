@@ -1,1 +1,13 @@
 This is new india
+pune
+banglore
+
+import { test, expect } from '@playwright/test';
+
+test('does not publish to shared page', async ({ page }) => {
+  await page.route('**/publish', route => {
+    test.abort('Tests must not publish to the shared page. Use the `clone` option.');
+    return route.abort();
+  });
+  // ...
+});
