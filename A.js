@@ -11,7 +11,10 @@ function m1(a, b) {
         console.log(a);
     }
 }
-
+function mul(x,t){
+    console.log(x);
+    console.log(y);
+}
 
 function m2(a, callback) {
     callback(a);
