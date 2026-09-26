@@ -4,3 +4,8 @@ function m1(x,y){
 }
 
 m1(10,30);
+
+
+let a=10;
+
+console.log(a+" "+"Hi");
