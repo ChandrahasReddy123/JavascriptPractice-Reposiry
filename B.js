@@ -6,4 +6,15 @@ function m1(a,b){
     console.log(b.m1());
 }
 
-m1(5,{name:'John', age:30,m1:function(){console.log('Hello world')}});
+m1(5,
+    {
+     name:'John', 
+     age:30,
+     m1:function(){
+        console.log('Hello world')
+    }});
+
+
+    function m3(){
+        console.log("Chinna");
+    }
